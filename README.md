@@ -1,1 +1,3 @@
-# transformer_pegasus_text_paraphrase
+## PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
+Recent work pre-training Transformers with self-supervised objectives on large text corpora has shown great success when fine-tuned on downstream NLP tasks including text summarization. However, pre-training objectives tailored for abstractive text summarization have not been explored. Furthermore there is a lack of systematic evaluation across diverse domains. In this work, we propose pre-training large Transformer-based encoder-decoder models on massive text corpora with a new self-supervised objective. In PEGASUS, important sentences are removed/masked from an input document and are generated together as one output sequence from the remaining sentences, similar to an extractive summary.
+Research Paper Link:https://arxiv.org/abs/1912.08777
